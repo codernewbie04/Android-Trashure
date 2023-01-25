@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home"
+    >
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.akmalmf.trashure.fragment.HomeFragment"
+        android:label="Beranda"
+        tools:layout="@layout/fragment_home"
+        />
+
+    <fragment
+        android:id="@+id/navigation_penukaran"
+        android:name="com.akmalmf.trashure.fragment.PenukaranFragment"
+        android:label="Penukaran"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_scan"
+        android:name="com.akmalmf.trashure.fragment.ScanFragment"
+        android:label="Scan"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_harga"
+        android:name="com.akmalmf.trashure.fragment.HargaFragment"
+        android:label="Scan"
+        tools:layout="@layout/fragment_harga" />
+
+    <fragment
+        android:id="@+id/navigation_akun"
+        android:name="com.akmalmf.trashure.fragment.AkunFragment"
+        android:label="Scan"
+        tools:layout="@layout/fragment_akun" />
+</navigation>

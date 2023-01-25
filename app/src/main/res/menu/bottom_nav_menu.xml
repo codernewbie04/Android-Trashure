@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Beranda"
+        />
+
+    <item
+        android:id="@+id/navigation_penukaran"
+        android:icon="@drawable/ic_penukaran"
+        android:title="Penukaran"
+        android:iconTint="@color/black"/>
+
+    <item
+        android:id="@+id/navigation_scan"
+        android:icon="@drawable/ic_search"
+        android:title="Scan" />
+
+    <item
+        android:id="@+id/navigation_harga"
+        android:icon="@drawable/ic_label"
+        android:title="Harga"
+        android:iconTint="@color/black"/>
+
+    <item
+        android:id="@+id/navigation_akun"
+        android:icon="@drawable/ic_user"
+        android:title="Akun"
+        android:iconTint="@color/black"
+        />
+
+</menu>
